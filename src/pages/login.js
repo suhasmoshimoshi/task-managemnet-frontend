@@ -6,7 +6,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import { auth, googleAuthProvider } from '../../firebaseConfig';
-import routes from './routes';
+import routes from "../routes"
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');

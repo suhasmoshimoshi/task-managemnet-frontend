@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import routes from './routes';
+import routes from "../routes"
 import { auth, googleAuthProvider } from '../../firebaseConfig';
 import { signInWithPopup } from 'firebase/auth';
 

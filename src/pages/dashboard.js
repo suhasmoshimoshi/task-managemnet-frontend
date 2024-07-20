@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import TaskColumn from '@/components/TaskColumn';
 import TaskModal from '@/components/TaskModal';
 import axios from 'axios';
-import routes from './routes';
+import routes from "../routes"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
